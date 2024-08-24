@@ -1,0 +1,53 @@
+body{
+    color:brown;
+    background:wheat;
+    margin: 0px;
+    font-family: "Pixelify Sans", sans-serif;
+    margin-bottom: 100px;
+}
+header{
+    border-bottom: solid 2px brown;
+    padding: 20px;
+    font-size: 30px;
+}
+.introduçao{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: rgb(59,0,0);
+    color:bisque;
+    justify-content: center;
+}
+.Texto-primario{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px
+}
+.Video{
+    margin-right: 5%;
+}
+img{
+    height: 200px
+}
+.primeirosVids{
+    display: flex;
+    overflow-x: auto;
+    gap:10px
+}
+.conjuntodevideos1{
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 20px;
+}
+.primeirosVids img{
+opacity: 0.5;
+}
+.primeirosVids img:hover{
+    opacity: 1.0;
+    border: 2px solid brown
+}
